@@ -8,7 +8,7 @@ env:
   VERSION: main-1.0.0	
 jobs:
   build:
-    runs-on: control
+    runs-on: harbor
     steps:
       - name: checkout on main
         uses: actions/checkout@v4
